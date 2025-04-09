@@ -16,28 +16,22 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">bem vindo ao meu site!</ThemedText>
+        <ThemedText type="title">seja muito bem vindo eu desejo a você um bom dia e se não me ver novamente tenha uma boa tarde e boa noite!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">vamos ver o que eu possos fazer </ThemedText>
+        <ThemedText type="subtitle">eu vou falar de um filme muito conhecido por alguns chamado o show de truman! </ThemedText>
         <ThemedText>
-          fazer sobre estrelas talvez, culinaria, esportes <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12'
-            })}
-          </ThemedText>{' '}
-          to open developer tools.
+        lançado em 1998 dirigudo por peter weir e estrelado por jim carrey esse filme é uma mistura de ficção drama e uma pitada de critica social sendo considerado um dos melhores filmes da decada de 90<ThemedText type="defaultSemiBold">no filme acompanhamos o nosso protagonista Truman Burbank que vive uma vida aparentemente comum em uma cidade aparentemente perfeita chamada Seahaven Mas o que ele não sabe é que toda a sua vida é, na verdade, um reality show transmitido ao vivo para o mundo inteiro desde o seu nascimento.</ThemedText> Cada detalhe da sua rotina — sua casa, vizinhos, amigos e até sua esposa — é parte de um grande estúdio, com atores contratados e câmeras escondidas.{' '}
+          <ThemedText>
+          </ThemedText>
+          O criador do programa, Christof, controla tudo e justifica sua vigilância dizendo que oferece a Truman uma vida melhor do que o mundo real poderia oferecer.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+        <ThemedText type="subtitle">falarei um pouco do que acontece no filme</ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
+          no inicio do filme o truman esta vivendo sua vida rotineira por mais um dia quando pequenos erros de continuidade despertam sua curiosidade um refletor cai do ceu bem na frente de truman escrito no refletor esta escrito Sirius (9 Canis Major) como se fosse uma estrela ele capta por engano uma transmissão de radio onde éra usado pela produção do programa e ele começa a perceber um comportamento artificial  
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
