@@ -2,21 +2,21 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { useAppTheme } from '../theme';
 
-export default function Index() {
+export default function NoticiaExtra() {
   const { colors } = useAppTheme();
 
   return (
-    <View style={[styles.container, { backgroundColor: colors.card }]}>
-      <Text style={[styles.titulo, { color: colors.text }]}>Novo trailer de GTA VI é lançado</Text>
+    <View style={[styles.card, { backgroundColor: colors.card }]}>
+      <Text style={[styles.titulo, { color: colors.text }]}>Fortnite ganha novo crossover com Dragon Ball</Text>
       <Text style={{ color: colors.text }}>
-        A Rockstar Games revelou um novo trailer de GTA VI, mostrando gráficos impressionantes e novos personagens.
+        A Epic Games adicionou Goku Black e novas habilidades inspiradas no anime à nova temporada de Fortnite.
       </Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  card: {
     margin: 16,
     padding: 16,
     borderRadius: 8,
